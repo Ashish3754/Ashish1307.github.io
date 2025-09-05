@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashish Kumar Giri - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .animated-bg {
+      background: linear-gradient(270deg, #6366f1, #3b82f6, #14b8a6, #f43f5e);
+      background-size: 800% 800%;
+      animation: gradientMove 18s ease infinite;
+    }
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- Hero -->
+  <section class="animated-bg min-h-screen flex flex-col justify-center items-center text-white text-center px-6">
+    <h1 class="text-6xl font-extrabold drop-shadow-lg">Ashish Kumar Giri</h1>
+    <p class="mt-4 text-2xl font-light drop-shadow-md">Final-Year CSE Student | Data Science & ML Enthusiast</p>
+    <div class="mt-8 space-x-4">
+      <a href="mailto:ashishkumargiri101@gmail.com" class="glass px-6 py-3 rounded-full text-lg shadow hover:scale-105 transition">Email</a>
+      <a href="https://www.linkedin.com/in/ashish-kumar-giri-68842130b/" target="_blank" class="glass px-6 py-3 rounded-full text-lg shadow hover:scale-105 transition">LinkedIn</a>
+      <a href="https://github.com/Ashish3754" target="_blank" class="glass px-6 py-3 rounded-full text-lg shadow hover:scale-105 transition">GitHub</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-5xl mx-auto py-20 px-6 text-center">
+    <h2 class="text-4xl font-bold text-blue-600 mb-6">About Me</h2>
+    <p class="text-lg leading-relaxed text-gray-700">
+      I am a passionate final-year Computer Science and Engineering student at ITER, SOA with a CGPA of <strong>7.71</strong>. 
+      Skilled in Python, SQL, Java, and data science tools, I enjoy building impactful ML projects and solving complex problems. 
+      I have hands-on experience as a Data Science Intern at Celebal, where I worked on predictive analytics and anomaly detection.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-gray-100 py-20 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-blue-600 mb-10">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="glass p-6 rounded-2xl shadow hover:scale-105 transition">Python</div>
+        <div class="glass p-6 rounded-2xl shadow hover:scale-105 transition">SQL</div>
+        <div class="glass p-6 rounded-2xl shadow hover:scale-105 transition">Java</div>
+        <div class="glass p-6 rounded-2xl shadow hover:scale-105 transition">Power BI</div>
+        <div class="glass p-6 rounded-2xl shadow hover:scale-105 transition">Excel</div>
+        <div class="glass p-6 rounded-2xl shadow hover:scale-105 transition">MySQL</div>
+        <div class="glass p-6 rounded-2xl shadow hover:scale-105 transition">Machine Learning</div>
+        <div class="glass p-6 rounded-2xl shadow hover:scale-105 transition">DevOps & CI/CD</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="max-w-5xl mx-auto py-20 px-6">
+    <h2 class="text-4xl font-bold text-blue-600 mb-10 text-center">Experience</h2>
+    <div class="glass p-8 rounded-2xl shadow hover:shadow-xl transition">
+      <h3 class="text-2xl font-semibold">Data Science Intern | Celebal</h3>
+      <p class="italic text-gray-600">Jul 2024 – Sep 2024</p>
+      <ul class="list-disc ml-6 mt-4 text-gray-800 space-y-2 text-left">
+        <li>Collected, cleaned, and integrated datasets ensuring data quality.</li>
+        <li>Performed EDA to uncover trends and anomalies.</li>
+        <li>Developed predictive ML models for anomaly detection with hyperparameter tuning.</li>
+        <li>Created dashboards & visualizations to present insights clearly.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-gray-100 py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold text-blue-600 mb-10 text-center">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="glass p-6 rounded-2xl shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold">Heart Disease Prediction with DevOps Deployment</h3>
+          <p class="mt-2 text-gray-800">Built ML models with 92% accuracy, integrated CI/CD, and deployed on cloud for real-time accessibility.</p>
+        </div>
+        <div class="glass p-6 rounded-2xl shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold">Bike Sharing Demand Prediction</h3>
+          <p class="mt-2 text-gray-800">Applied Random Forest and Gradient Boosting to forecast bike rentals for strategic planning.</p>
+        </div>
+        <div class="glass p-6 rounded-2xl shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold">Personal Portfolio Website</h3>
+          <p class="mt-2 text-gray-800">Designed responsive site with parallax effects, video backgrounds, and smooth navigation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="max-w-5xl mx-auto py-20 px-6">
+    <h2 class="text-4xl font-bold text-blue-600 mb-10 text-center">Education</h2>
+    <ul class="space-y-4 text-gray-800 text-center">
+      <li><strong>B.Tech CSE</strong>, ITER, SOA – CGPA: 7.71 (2021–2025)</li>
+      <li><strong>12th</strong>, Upendranath College – 77.17% (2018–2020)</li>
+      <li><strong>10th</strong>, Madhuhari BidyaPitha – 86.18% (2017–2018)</li>
+
+    </ul>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="bg-gray-100 py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold text-blue-600 mb-10 text-center">Certificates</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="glass p-6 rounded-2xl shadow hover:shadow-xl transition">
+          Programming in Python – HackerRank (2023)
+        </div>
+        <div class="glass p-6 rounded-2xl shadow hover:shadow-xl transition">
+          Data Science Certificate – Celebal (2024)
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto py-20 px-6 text-center">
+    <h2 class="text-4xl font-bold text-blue-600 mb-6">Get in Touch</h2>
+    <p class="text-gray-700 mb-4">Let’s connect for collaborations, projects, or opportunities.</p>
+    <p>Email: <a href="mailto:ashishkumargiri101@gmail.com" class="text-blue-600">ashishkumargiri101@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ashish-kumar-giri-68842130b/" target="_blank" class="text-blue-600">linkedin.com/in/ashish-kumar-giri</a></p>
+    <p>GitHub: <a href="https://github.com/Ashish3754" target="_blank" class="text-blue-600">github.com/Ashish3754</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center py-6 mt-12 shadow-inner">
+    <p>&copy; 2025 Ashish Kumar Giri. Built with ❤️</p>
+  </footer>
+
+</body>
+</html>
